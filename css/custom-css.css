@@ -104,8 +104,14 @@ body {
 }
 
 .ch-info-back{
-    -webkit-animation: colorchangeSpin 50s;
-    animation: colorchangeSpin 50s;
+    background-color:transparent !important;
+}
+
+.turquoise{
+	background-color:transparent !important;
+}
+.ch-info-wrap{
+	background-color:transparent !important;
 }
 
 .share-action{
@@ -113,10 +119,7 @@ body {
     animation: colorchangeSpin 50s;
 }
 
-.ch-info{
-	 -webkit-animation: colorchangeSpin 50s;
-    animation: colorchangeSpin 50s;
-}
+
 
 @keyframes colorchangeSpin
 {
