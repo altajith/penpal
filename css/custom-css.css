@@ -73,3 +73,89 @@
 	padding:3px 32px 3px 3px; 
 	color:#fff;	
 } 
+
+
+body {
+    -webkit-animation: colorchange 50s;
+    animation: colorchange 50s;
+}
+
+@keyframes colorchange
+{
+0%   {background: red;}
+25%  {background: yellow;}
+50%  {background: blue;}
+75%  {background: green;}
+100% {background: red;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome */
+{
+0%   {background: red;}
+25%  {background: yellow;}
+50%  {background: blue;}
+75%  {background: green;}
+100% {background: red;}
+}
+
+.spin-id {
+    -webkit-animation: colorchangeSpin 50s;
+    animation: colorchangeSpin 50s;
+}
+
+.ch-info-back{
+    -webkit-animation: colorchangeSpin 50s;
+    animation: colorchangeSpin 50s;
+}
+
+.share-action{
+    -webkit-animation: colorchangeSpin 50s;
+    animation: colorchangeSpin 50s;
+}
+
+.ch-info{
+	 -webkit-animation: colorchangeSpin 50s;
+    animation: colorchangeSpin 50s;
+}
+
+@keyframes colorchangeSpin
+{
+0%   {background: blue;}
+25%  {background: green;}
+50%  {background: red;}
+75%  {background: yellow;}
+100% {background: blue;}
+}
+
+@-webkit-keyframes colorchangeSpin /* Safari and Chrome */
+{
+0%   {background: blue;}
+25%  {background: green;}
+50%  {background: red;}
+75%  {background: yellow;}
+100% {background: blue;}
+}
+
+
+.footer-user{
+    -webkit-animation: colorchangeFooter 50s;
+    animation: colorchangeFooter 50s;
+}
+
+@keyframes colorchangeFooter
+{
+0%   {color: blue;}
+25%  {color: green;}
+50%  {color: red;}
+75%  {color: yellow;}
+100% {color: blue;}
+}
+
+@-webkit-keyframes colorchangeFooter /* Safari and Chrome */
+{
+0%   {color: blue;}
+25%  {color: green;}
+50%  {color: red;}
+75%  {color: yellow;}
+100% {color: blue;}
+}
