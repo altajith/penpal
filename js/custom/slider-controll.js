@@ -31,11 +31,11 @@ $(document).ready(function() {
 		//$(".ch-info").css("background-color", colors[random]);
 		$(".ch-info-back").css("background-color", "transparent");
 
-		$('.share-action').attr("style", "background-color:" + colors_ball[random] + " !important;");
-		$(".spin-id").css("background-color", colors_ball[random]);
-		$(".footer-user").css("color", colors_ball[random]);
+		//$('.share-action').attr("style", "background-color:" + colors_ball[random] + " !important;");
+		$(".spin-id").css("background-color", colors[random]);
+		//$(".footer-user").css("color", colors_ball[random]);
 
-		$('#search').attr("style", "background-color: " + colors_ball[random] + " ;");
+		//$('#search').attr("style", "background-color: " + colors_ball[random] + " ;");
 
 	});
 
