@@ -29,7 +29,7 @@ $(document).ready(function() {
 		}
 		$("body").css("background-color", colors[random]);
 		//$(".ch-info").css("background-color", colors[random]);
-		$(".ch-info-back").css("background-color", colors[random]);
+		$(".ch-info-back").css("background-color", "transparent");
 
 		$('.share-action').attr("style", "background-color:" + colors_ball[random] + " !important;");
 		$(".spin-id").css("background-color", colors_ball[random]);
@@ -45,7 +45,7 @@ $(document).ready(function() {
 		}
 		$("body").css("background-color", colors[random]);
 		//$(".ch-info").css("background-color", colors[random]);
-		$(".ch-info-back").css("background-color", colors[random]);
+		$(".ch-info-back").css("background-color", "transparent");
 
 		$('.share-action').attr("style", "background-color:" + colors_ball[random] + " !important;");
 		$(".spin-id").css("background-color", colors_ball[random]);
