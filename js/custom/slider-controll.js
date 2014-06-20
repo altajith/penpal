@@ -12,7 +12,7 @@ var colors_ball = {
 	4 : "#F4D248"
 };
 $(document).ready(function() {
-
+/*
 	$("body").css("background-color", colors[random]);
 	//$(".ch-info").css("background-color", colors[random]);
 	$(".ch-info-back").css("background-color", colors[random]);
@@ -22,7 +22,7 @@ $(document).ready(function() {
 	$(".footer-user").css("color", colors_ball[random]);
 
 	$('#search').attr("style", "background-color: " + colors_ball[random] + " ;");
-
+*/
 	$("#next-arrow").click(function() {
 		if (4 > random) {
 			random++;
