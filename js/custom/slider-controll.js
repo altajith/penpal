@@ -14,7 +14,7 @@ var colors_ball = {
 $(document).ready(function() {
 
 	$("body").css("background-color", colors[random]);
-	$(".ch-info").css("background-color", colors[random]);
+	//$(".ch-info").css("background-color", colors[random]);
 	$(".ch-info-back").css("background-color", colors[random]);
 
 	$('.share-action').attr("style", "background-color:" + colors_ball[random] + " !important;");
@@ -28,7 +28,7 @@ $(document).ready(function() {
 			random++;
 		}
 		$("body").css("background-color", colors[random]);
-		$(".ch-info").css("background-color", colors[random]);
+		//$(".ch-info").css("background-color", colors[random]);
 		$(".ch-info-back").css("background-color", colors[random]);
 
 		$('.share-action').attr("style", "background-color:" + colors_ball[random] + " !important;");
@@ -44,7 +44,7 @@ $(document).ready(function() {
 			random--;
 		}
 		$("body").css("background-color", colors[random]);
-		$(".ch-info").css("background-color", colors[random]);
+		//$(".ch-info").css("background-color", colors[random]);
 		$(".ch-info-back").css("background-color", colors[random]);
 
 		$('.share-action').attr("style", "background-color:" + colors_ball[random] + " !important;");
