@@ -1650,7 +1650,7 @@ html, body {
 #flexslider-related ul li:last-child {
 	padding-right: 0
 }
-.turquoise .seclevelribbon {
+.seclevelribbon {
 	background: rgba(82,204,179,.6)
 }
 .turquoise .ribbon:after {

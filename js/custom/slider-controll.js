@@ -14,7 +14,6 @@ var colors_ball = {
 $(document).ready(function() {
 
 	$("body").css("background-color", colors[random]);
-	$(".turquoise").css("background-color", colors[random]);
 	$(".ch-info").css("background-color", colors[random]);
 	$(".ch-info-back").css("background-color", colors[random]);
 
@@ -29,7 +28,6 @@ $(document).ready(function() {
 			random++;
 		}
 		$("body").css("background-color", colors[random]);
-		$(".turquoise").css("background-color", colors[random]);
 		$(".ch-info").css("background-color", colors[random]);
 		$(".ch-info-back").css("background-color", colors[random]);
 
@@ -46,7 +44,6 @@ $(document).ready(function() {
 			random--;
 		}
 		$("body").css("background-color", colors[random]);
-		$(".turquoise").css("background-color", colors[random]);
 		$(".ch-info").css("background-color", colors[random]);
 		$(".ch-info-back").css("background-color", colors[random]);
 
