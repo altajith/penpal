@@ -1,0 +1,83 @@
+#content{
+	margin-top:25%;
+}
+
+#email-lable,#pwd-lable{
+color:#fff;
+}
+
+#fogot-a {
+color:#000;
+}
+
+#sign-up-a {
+color:#fff;
+}
+
+
+#sign-up-a img{
+width:5%;
+height:auto;
+}
+
+#email 
+{ 
+border: 2px solid #3b5998; 
+height: 31px; 
+width: 223px; 
+box-shadow: 0px 0px 27px #3b5998 inset; 
+transition:500ms all ease; 
+padding:3px 3px 3px 3px; 
+
+} 
+ 
+#email:hover, #email:focus 
+{ 
+width:260px; 
+transition:500ms all ease; 
+background:url("../images/user.png") no-repeat right; 
+background-size:25px 25px; 
+background-position:96% 62%; 
+padding:3px 32px 3px 3px; 
+color:#fff;	
+} 
+
+#password 
+{ 
+border: 2px solid #3b5998; 
+height: 31px; 
+width: 223px; 
+box-shadow: 0px 0px 27px #3b5998 inset; 
+transition:500ms all ease; 
+padding:3px 3px 3px 3px; 
+
+} 
+ 
+#password:hover, #password:focus 
+{ 
+width:260px; 
+transition:500ms all ease; 
+background:url("../images/pwd.png") no-repeat right; 
+background-size:25px 25px; 
+background-position:96% 62%; 
+padding:3px 32px 3px 3px; 
+color:#fff;	
+} 
+
+.btn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 8px;
+  background: #305ead;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2d6ebd;
+  text-decoration: none;
+}

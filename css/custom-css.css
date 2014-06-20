@@ -1,0 +1,75 @@
+.spin-id {
+	color: #000;
+	margin-top: 15%;
+}
+
+.share-id1 {
+	margin-top: 25%;
+}
+
+.share-id2 {
+	margin-top: 30%;
+}
+
+.share-id3 {
+	margin-top: 30%;
+}
+
+.share-id4 {
+	margin-top: 30%;
+}
+
+.footer-container
+{
+ 	clear:both;
+ 	background:transparent;
+ 	bottom:0;
+ 	height:auto;
+ 	width:100%;
+ 	position:fixed;
+}
+
+.footer{
+	width:10%;
+ 	height:50px;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	background:transparent;
+}
+
+.header-container
+{
+	clear:both;
+ 	background:transparent;
+ 	top:0;
+ 	height:auto;
+ 	width:100%;
+ 	position:fixed;
+}
+
+.header{
+	width:50%;
+ 	height:50px;
+ 	float:right;
+ 	background:transparent;
+}
+
+#search{
+	border: 0px solid transparent; 
+	height: 31px; 
+	width: 35%; 
+	float:right;
+	transition:500ms all ease; 
+	padding:3px 3px 3px 3px; 
+}
+
+#search:hover, #search:focus 
+{ 
+	width:100%; 
+	transition:500ms all ease; 
+	background:url("../images/search.png") no-repeat right; 
+	background-size:25px 25px; 
+	background-position:96% 62%; 
+	padding:3px 32px 3px 3px; 
+	color:#fff;	
+} 
